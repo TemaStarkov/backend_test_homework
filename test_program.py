@@ -1,7 +1,7 @@
-import os
+import os as s
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-dir_files = [filename.lower() for filename in os.listdir(BASE_DIR)]
+BASE_DIR = s.path.dirname(s.path.abspath(__file__))
+dir_files = [filename.lower() for filename in s.listdir(BASE_DIR)]
 
 files_list = ['program.py', 'readme.md']
 
